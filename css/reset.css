@@ -18,6 +18,7 @@ html {
   --font-body: sans-serif;
   --font-brandOne: "Inknut Antiqua", serif;;
   --font-brandTwo: "Inter", "serif";
+  --font-headlines: "Alegreya Sans", serif;
 }
 
 /* Remove default margin in favour of better control in authored CSS */
