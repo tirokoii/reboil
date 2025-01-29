@@ -9,16 +9,7 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300;400;600;700;800;900&display=swap" rel="stylesheet">
-
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&display=swap" rel="stylesheet">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@400;500;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@400;500;700;800&family=Darker+Grotesque:wght@300..900&family=Inknut+Antiqua:wght@400;500;600;700;800;900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
 
 </head>
 
@@ -30,25 +21,27 @@
                 <a href="#">
                     <div class="brand">
                         <img class="logo" src="images/reboil.logo.svg" alt="logo">
-                        <div class="brandText">
-                            <p class="firstBrand">Re</p><p class="secondBrand">Boil</p>
+                        <div class="brand-text">
+                            <p class="first-brand">Re</p>
+                            <p class="second-brand">Boil</p>
                         </div>
                     </div>
                 </a>
-                <ul class="navList">
-                    <li>
-                        <a href="#">Beställ</a>
-                    </li>
-                    <li>
-                        <a href="#">Butiker</a>
-                    </li>
-                    <li>
-                        <a href="#">Erbjudanden</a>
-                    </li>
-                </ul>
-
-                <div class="hamburgare">
-                    <a href="#">☰</a>
+                <div class="nav">
+                    <ul class="nav-list">
+                        <li  class = "call-for-action">
+                            <a href="#">Beställ</a>
+                        </li>
+                        <li id = "button">
+                            <a href="#">Butiker</a>
+                        </li>
+                        <li id = "button">
+                            <a href="#">Erbjudanden</a>
+                        </li>
+                        <li class="hamburger">
+                            <a href="#">☰</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </nav>
@@ -56,76 +49,83 @@
 
     <main>
         <div class="hero">
-            <img src="images/hero.image.jpg" alt="hero image">
-            <div>
-                <h2>“Ett re-volutionerande sätt att värma ditt kaffe på utan mikro eller kaffekokare”</h2>
-
-                <div>
-                    <p>Med våran kopp kan du enkelt och säkert värma upp ditt kaffe utan mikro eller kaffekokare</p> 
-                    <p>Du kommer aldrig mer behöva ha uppsikt över ditt kaffe</p> 
+            <img class="hero-image" src="images/hero.cup.png" alt="hero image">
+            <div class="hero-container">
+                <div class="hero-content">
+                    <h1>“Ett re-volutionerande sätt att värma ditt kaffe på utan mikro eller kaffekokare”</h1>
+                    <div>
+                        <p id="p1">Med våran kopp kan du enkelt och säkert värma upp ditt kaffe utan mikro eller kaffekokare</p> 
+                        <p id="p2">Du kommer aldrig mer behöva ha uppsikt över ditt kaffe</p> 
+                    </div>
                 </div>
-            </div>
-
-            <div>
-                <h2>Vi älskar våra kunder därför får de första kunderna ett speciall erbjudande</h2>
-
-                <div>
-                    <p>Få 20% Rabatt på första köpet + en gratis keps</p>
-                    <p>Företag som köper får alltid 10% rabbat på alla större köp</p>
-                    <p>Köp online och få frifrakt vart du ens bor</p>
-                </div>
-            </div>
-            <p>Vi här på ReBoil strävar efter att underlätt och hjälpa våra kunders vardag. Med våran Kaffekopp kan man njuta av erat kaffe under hela dagen av stress</p>
-        </div>
-
     
-        <div>
-            <div>
-                <h3>Vi nyttjar endast miljövänliga och etiska råvaror</h3>
-                <p>ReBoil fokuserar på att använda råvaror som utvinns på ett hållbart och etiskt sätt. Vi säkerställer att materialen kommer från källor som respekterar både miljö och mänskliga rättigheter...</p>
-                <button>LÄS MER</button>
-            </div>
-            <img src="images/coffeemaker.png" alt="material image">
-        </div>
-        <div>
-            <img src="images/woman.coffee.png" alt="kvinna håller i kaffe">
-            <div>
-                <h3>Visste du att de som dricker mest kaffe är kontors chefer?</h3>
-                <p>I den nya SIFO-underfökningen från Beans in cup framgår det att kontors chefer är de som dricker mest kaffe. De dricker nämligen sammanlagt 12 miljoner koppar varje dag!</p>
-                <button>LÄS MER</button>
+                <div  class="hero-content" id="second-content">
+                    <h1>Vi älskar våra kunder därför får de första kunderna ett speciall erbjudande</h1>
+                    <div>
+                        <p id = "p1">Få 20% Rabatt på första köpet + en gratis keps</p>
+                        <p id = "p2">Företag som köper får alltid 10% rabbat på alla större köp</p>
+                        <p id = "p2">Köp online och få frifrakt vart du ens bor</p>
+                    </div>
+                </div>
+                <div class="slogan">
+                    <p>Vi här på ReBoil strävar efter att underlätt och hjälpa våra kunders i deras vardag. Med våran Kaffekopp kommer ni kunna njuta av erat kaffe hela dagen av stress</p>
+                </div>
             </div>
         </div>
+
+        <content>
+            <div class="card-row">
+                <div class="card-text" id="card-one-text">
+                    <h2>Vi nyttjar endast miljövänliga och etiska råvaror</h2>
+                    <p>ReBoil fokuserar på att använda råvaror som utvinns på ett hållbart och etiskt sätt. Vi säkerställer att materialen kommer från källor som respekterar både miljö och mänskliga rättigheter...</p>
+                    <button>LÄS MER</button>
+                </div>
+                <img class="card-image" src="images/coffeemaker.png" alt="material image">
+            </div>
+            <div class="card-row">
+                <img class="card-image" src="images/woman.coffee.png" alt="kvinna håller i kaffe">
+                <div class="card-text" id="card-two-text">
+                    <h2>Visste du att de som dricker mest kaffe är kontors chefer?</h2>
+                    <p>I den nya SIFO-underfökningen från Beans in cup framgår det att kontors chefer är de som dricker mest kaffe. De dricker nämligen sammanlagt 12 miljoner koppar varje dag!</p>
+                    <button>LÄS MER</button>
+                </div>
+            </div>
+        </content>
+
     </main>
 
     <footer>
-        <h4>Information & hjälp</h4>
-        <p>...</p>
-        <hr>
-        <div>
-            <h4>Prouduk</h4>
-            <ul>
-                <li>Kaffekoppar</li>
-                <li>Merch</li>
-                <li>Erbjudanden</li>
-            </ul>
+        <div class = "top-footer">
+            <h3>Information & hjälp:</h3>
+            <p>Detta är bara ett skolarbete</p>
         </div>
-        <div>
-            <h4>ReBoil</h4>
-            <ul>
-                <li>Hållbarhet</li>
-                <li>Tillverkning</li>
-                <li>Samarbeten</li>
-                <li>Jobba på Reboil</li>
-            </ul>
-        </div>
-        <div>
-            <h4>Följ oss</h4>
-            <ul>
-                <li>Instagram</li>
-                <li>Facebook</li>
-                <li>Twitter</li>
-                <li>LinkedIn</li>
-            </ul>
+        <div class = "bottom-footer">
+            <div class="box">
+                <h3>Proudukt</h3>
+                <ul>
+                    <li>Kaffekoppar</li>
+                    <li>Merch</li>
+                    <li>Erbjudanden</li>
+                </ul>
+            </div>
+            <div class="box">
+                <h3>ReBoil</h3>
+                <ul>
+                    <li>Hållbarhet</li>
+                    <li>Tillverkning</li>
+                    <li>Samarbeten</li>
+                    <li>Jobba på Reboil</li>
+                </ul>
+            </div>
+            <div class="box">
+                <h3>Följ oss</h3>
+                <ul>
+                    <li>Instagram</li>
+                    <li>Facebook</li>
+                    <li>Twitter</li>
+                    <li>LinkedIn</li>
+                </ul>
+            </div>
         </div>
     </footer>
 </body>
