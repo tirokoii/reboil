@@ -141,7 +141,7 @@ main {
     box-shadow: 2px 4px 8px #0000007b;
 }
 
-#second-content {
+.second-content {
     width: 40ch;
     height: 40ch;
     padding: 2ch;
@@ -151,15 +151,15 @@ main {
     backdrop-filter: blur(5px);
 }
 
-#second-content h1 {
+.second-content h1 {
     color: var(--color-one);
 }
 
-#p1{
+.p1{
     color: var(--color-four);
 }
 
-#p2 {
+.p2 {
     color: var(--color-one);
 }
 
@@ -214,11 +214,11 @@ content p {
     margin: 5ch;
 }
 
-#card-one-text {
+.card-one-text {
     padding-right: 10ch;
 }
 
-#card-two-text {
+.card-two-text {
     padding-left: 10ch;
 }
 
