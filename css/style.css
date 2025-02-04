@@ -186,7 +186,7 @@ main {
     color: var(--color-one);
 }
 
-content {
+article {
     display: grid;
     gap: 15ch;
     margin-top: 15ch;
@@ -195,13 +195,13 @@ content {
     margin-inline: 8ch;
 }
 
-content h2 {
+article h2 {
     font-size: 2rem;
     font-family: var(--font-headlines);
     margin-bottom: 2ch;
 }
 
-content p {
+article p {
     font-family: var(--font-breadcrumbs);
 }
 
@@ -313,7 +313,7 @@ footer li {
     .card-row {
         align-items: center;
     }
-    content h2 {
+    article h2 {
         margin-bottom: 1ch;
     }
 }
