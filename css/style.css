@@ -1,3 +1,36 @@
+h1 {
+    font-family: var(--font-headlines);
+  }
+  
+  h2, h3, h4{
+    font-family: var(--font-subheading);
+  }
+  
+  p {
+    font-family: var(--font-breadcrumbs);
+  }
+
+  a {
+    font-family: var(--font-headlines);
+    font-weight: 800;
+  }
+
+  li {
+    font-family: var(--font-headlines);
+  }
+
+  .boxes {
+    display: flex;
+    gap: 4ch;
+  }
+
+  .boxes p {
+    width: 15ch;
+    height: 15ch;
+    background-color: antiquewhite;
+    text-align: center;
+  }
+
 body {
     color: black;
     font-family: 'Courier New', Courier, monospace;
@@ -95,6 +128,21 @@ a {
 main {
     display: flex;
     flex-wrap: wrap;
+    align-content: center;
+    flex-direction: column;
+    justify-content: center; 
+    overflow: hidden;
+    width: min(100% - 3rem, var(--container-max, 100ch));
+    margin-inline: auto;
+    margin-top: 15ch;
+    margin-bottom: 5ch;
+}
+
+.main-hero {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    flex-direction: column;
     justify-content: center; 
     overflow: hidden;
 }
@@ -181,12 +229,10 @@ main {
 }
 
 article {
-    display: grid;
-    gap: 15ch;
-    margin-top: 15ch;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
     align-items: center;
-    margin-bottom: 15ch;
-    margin-inline: 8ch;
 }
 
 article h2 {
@@ -201,6 +247,9 @@ article p {
 
 .card-row {
     display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row-reverse;
+    margin-bottom: 15ch;
 }
 
 .card-text {
@@ -209,11 +258,11 @@ article p {
 }
 
 .card-one-text {
-    padding-right: 10ch;
+    padding-left: 10ch;
 }
 
 .card-two-text {
-    padding-left: 10ch;
+    padding-right: 10ch;
 }
 
 .card-image {
@@ -331,22 +380,16 @@ footer li {
         margin-left: 0;
     }
 
-    .second-content {
-        float: right;
-        width: 30ch;
-    }
-
     .hero-content {
-        float: left;
-        margin-left: 3ch;
+        width: 35ch;
     }
 
-    .hero-container {
-        display: block;
+    .card-one-text {
+        margin: 0;
     }
 
-    .slogan {
-        margin-top: 77ch;
+    .card-two-text {
+        margin: 0;
     }
 }
 
@@ -356,11 +399,18 @@ footer li {
     }
 
     .hero-container {
-        height: 100ch !important;
+        gap: 0ch;
     }
 
     .card-text {
         margin-right: 2ch;
+    }
+
+    .card-one-text {
+        padding-left: 8ch;
+    }
+    .card-two-text {
+        padding-right: 5ch;
     }
 }
 
@@ -369,9 +419,15 @@ footer li {
         display: none;
     }
 
+    .hero-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
     .hero-content {
-        width: 40ch !important;
-        margin-inline: 15ch !important;
+        width: 40ch;
+        margin-inline: auto;
     }
 
     .card-row {
@@ -385,6 +441,12 @@ footer li {
     }
 
     .card-two-text {
+        margin-top: 10ch;
+        padding: 0;
+    }
+
+    .card-one-text {
+        margin-bottom: 10ch;
         padding: 0;
     }
 
@@ -398,6 +460,9 @@ footer li {
 @media only screen and (max-width: 630px) {
     .brand-text {
         display: none;
+    }
+    .slogan {
+        width: 50ch;
     }
 }
 
@@ -436,7 +501,7 @@ footer li {
     }
 
     .hero-content {
-        width: 30ch !important;
+        width: 30ch;
         padding: 3ch;
         height: 45ch;
         margin-top: 2ch;
