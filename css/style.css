@@ -12,7 +12,7 @@ body {
     justify-content: space-between;
     gap: 2rem;
     column-gap: 7rem;
-    padding: 0.7rem;
+    padding: 2ch;
     background-color: var(--color-zero);
     font-size: 1.4rem;
     border-bottom: 0.6rem solid var(--color-three);
@@ -21,11 +21,6 @@ body {
 .logo {
     width: 4.5ch;
     height: auto;
-}
-
-li {
-    display: list-item;
-    unicode-bidi: isolate;   
 }
 
 .brand {
@@ -87,12 +82,12 @@ a {
     background-color: var(--color-two);
     padding: 0.5ch;
     padding-inline: 2ch;
-    border-radius: 10ch;
+    border-radius: 5ch;
 }
 
 .hamburger {
     margin-inline: auto;
-    margin-left: min(22vw - 3rem, 10rem);
+    margin-left: min(10vw - 3rem, 10rem);
     font-size: 2rem;
     color: var(--color-one);
 }
@@ -144,7 +139,6 @@ main {
 .second-content {
     width: 40ch;
     height: 40ch;
-    padding: 2ch;
     margin-top: 5ch;
     background-color: rgba(0, 0, 0, 0.2);
     align-content: center;
@@ -230,6 +224,7 @@ article p {
 }
 
 button {
+    color: rgb(20, 20, 20);
     font-family: var(--font-headlines);
     font-size: 1.1rem;
     font-weight: 700;
@@ -261,7 +256,7 @@ footer p{
     padding-block: 3ch;
     padding-inline: 4ch;
     display: flex;
-    border-bottom: 0.3ch solid rgb(255, 255, 255);
+    border-bottom: 0.2ch solid var(--color-four);
 }
 
 .bottom-footer {
@@ -282,18 +277,15 @@ footer li {
     margin-top: 2ch;
 }
 
-
 @media only screen and (max-width: 1210px) {
-    #card-one-text {
+
+    .card-one-text {
         padding-right: 1ch;
     }
     
-    #card-two-text {
+    .card-two-text {
         padding-left: 1ch;
     }
-}
-
-@media only screen and (max-width: 1075px){
 
     .nav-list {
         display: flex;
@@ -303,6 +295,7 @@ footer li {
     .hamburger {
         margin-left: 2rem;
         margin-right: 2rem;
+
     }
 
     .card-image {
@@ -313,8 +306,15 @@ footer li {
     .card-row {
         align-items: center;
     }
+
     article h2 {
         margin-bottom: 1ch;
+    }
+}
+
+@media only screen and (max-width: 1037px) {
+    #button {
+        display: none;
     }
 }
 
@@ -327,24 +327,18 @@ footer li {
         margin-inline: 0;
     }
 
-    #button {
-        display: none;
-    }
-
     .hamburger {
-        margin-left: 0 !important;
+        margin-left: 0;
     }
 
-    #second-content {
+    .second-content {
         float: right;
         width: 30ch;
-        margin-right: 2ch;
-        margin-left: 2ch;
     }
 
     .hero-content {
         float: left;
-        margin-left: 2ch;
+        margin-left: 3ch;
     }
 
     .hero-container {
@@ -371,7 +365,7 @@ footer li {
 }
 
 @media only screen and (max-width: 768px) {
-    #second-content {
+    .second-content {
         display: none;
     }
 
@@ -390,7 +384,7 @@ footer li {
         margin-left: 4ch;
     }
 
-    #card-two-text {
+    .card-two-text {
         padding: 0;
     }
 
