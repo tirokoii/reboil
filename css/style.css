@@ -19,18 +19,6 @@ h1 {
     font-family: var(--font-headlines);
   }
 
-  .boxes {
-    display: flex;
-    gap: 4ch;
-  }
-
-  .boxes p {
-    width: 15ch;
-    height: 15ch;
-    background-color: antiquewhite;
-    text-align: center;
-  }
-
 body {
     color: black;
     font-family: 'Courier New', Courier, monospace;
@@ -46,9 +34,9 @@ body {
     gap: 2rem;
     column-gap: 7rem;
     padding: 2ch;
-    background-color: var(--color-zero);
+    background-color: var(--color-black);
     font-size: 1.4rem;
-    border-bottom: 0.6rem solid var(--color-three);
+    border-bottom: 0.6rem solid var(--color-red);
 }
 
 .logo {
@@ -73,7 +61,7 @@ body {
     padding-left: 1.5rem;
     font-size: 2.5rem;
     font-weight: bold;
-    color: var(--color-one);
+    color: var(--color-white);
 }
 
 a {
@@ -108,11 +96,11 @@ a {
     font-weight: 800;
     margin-right: 1rem;
     padding: 0;
-    color: var(--color-one);
+    color: var(--color-white);
 }
 
 .call-for-action {
-    background-color: var(--color-two);
+    background-color: var(--color-blue);
     padding: 0.5ch;
     padding-inline: 2ch;
     border-radius: 5ch;
@@ -122,7 +110,7 @@ a {
     margin-inline: auto;
     margin-left: min(10vw - 3rem, 10rem);
     font-size: 2rem;
-    color: var(--color-one);
+    color: var(--color-white);
 }
 
 main {
@@ -153,7 +141,7 @@ main {
     height: var(--hero-height);
     margin-inline: auto;
     width: max(110vw - 3rem, 56rem);
-    background-color: var(--color-zero);
+    background-color: var(--color-black);
 }
 
 .hero-image {
@@ -194,15 +182,15 @@ main {
 }
 
 .second-content h1 {
-    color: var(--color-one);
+    color: var(--color-white);
 }
 
 .p1{
-    color: var(--color-four);
+    color: var(--color-green);
 }
 
 .p2 {
-    color: var(--color-one);
+    color: var(--color-white);
 }
 
 .hero-content h1 {
@@ -225,7 +213,7 @@ main {
     font-weight: 600;
     font-size: 0.7rem;
     margin-inline: 20ch;
-    color: var(--color-one);
+    color: var(--color-white);
 }
 
 article {
@@ -277,7 +265,7 @@ button {
     font-family: var(--font-headlines);
     font-size: 1.1rem;
     font-weight: 700;
-    background-color: var(--color-two);
+    background-color: var(--color-blue);
     border-radius: 3ch;
     margin-top: 4ch;
     padding-block: 1.5ch;
@@ -286,8 +274,8 @@ button {
 }
 
 footer {
-    background-color: var(--color-zero);
-    color: var(--color-one);
+    background-color: var(--color-black);
+    color: var(--color-white);
 }
 
 footer h3 {
@@ -305,7 +293,7 @@ footer p{
     padding-block: 3ch;
     padding-inline: 4ch;
     display: flex;
-    border-bottom: 0.2ch solid var(--color-four);
+    border-bottom: 0.2ch solid var(--color-green);
 }
 
 .bottom-footer {

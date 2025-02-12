@@ -12,11 +12,11 @@ html {
   -webkit-text-size-adjust: none;
   text-size-adjust: none;
 
-  --color-zero: #444743;
-  --color-one: #F5F5F5;
-  --color-two: #6293E9;
-  --color-three: #D40033;
-  --color-four: #b6eb9e;
+  --color-black: #393c38;
+  --color-white: #F5F5F5;
+  --color-blue: #6293E9;
+  --color-red: #D40033;
+  --color-green: #b6eb9e;
   --font-body: sans-serif;
 }
 

@@ -1,0 +1,88 @@
+
+.boxes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4ch;
+  }
+
+  .boxes p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 10ch;
+    height: 10ch;
+    text-align: center;
+    box-shadow: 6px 10px 2px #7070705b;
+    border: 5px solid var(--color-white);
+  }
+
+.pictures {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5ch;
+    margin-bottom: 15ch;
+}
+
+img {
+    width: 20ch;
+    height: max-content;
+    border-radius: 1ch;
+}
+
+.main-image {
+    width: 100%;
+}
+
+.primary {
+    background-color: var(--color-red);
+    color: aliceblue;
+}
+
+.secondary {
+    background-color: var(--color-blue);
+    color: azure;
+}
+
+.tertiary {
+    background-color: var(--color-green);
+}
+
+.light {
+    background-color: var(--color-white);
+}
+
+.dark {
+    background-color: var(--color-black);
+    color: var(--color-white);
+}
+
+.primary-dark {
+    background-color: var(--color-red);
+    color: var(--color-black);
+}
+
+.secondary-dark {
+    background-color: var(--color-blue);
+    color: var(--color-black);
+}
+
+.tertiary-dark {
+    background-color: var(--color-green);
+    color: var(--color-black);
+}
+
+.primary-light {
+    background-color: var(--color-red);
+    color: var(--color-white);
+}
+
+.secondary-light {
+    background-color: var(--color-blue);
+    color: var(--color-white);
+}
+
+.tertiary-light {
+    background-color: var(--color-green);
+    color: var(--color-white);
+}
