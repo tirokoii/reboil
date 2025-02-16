@@ -117,13 +117,12 @@ main {
     display: flex;
     flex-wrap: wrap;
     align-content: center;
-    flex-direction: column;
     justify-content: center; 
     overflow: hidden;
-    width: min(100% - 3rem, var(--container-max, 100ch));
+    width: min(100% - 5rem, var(--container-max, 100ch));
     margin-inline: auto;
     margin-top: 15ch;
-    margin-bottom: 5ch;
+    margin-bottom: 10ch;
 }
 
 .main-hero {
@@ -242,7 +241,6 @@ article p {
 
 .card-text {
     width: 55ch;
-    margin: 5ch;
 }
 
 .card-one-text {
@@ -420,7 +418,7 @@ footer li {
 
     .card-row {
         flex-direction: column;
-        width: min(100vw - 3rem, 100rem);
+
     }
 
     .card-text {
