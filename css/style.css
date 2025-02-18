@@ -24,6 +24,57 @@ body {
     font-family: 'Courier New', Courier, monospace;
     font-size: 1.2rem;
     line-height: 1.5;
+    background-color: white;
+}
+
+.sideNav {
+    color: var(--color-black);
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    right: 0;
+    background-color: var(--color-black);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 10ch;
+    filter: none;
+}
+
+.sideNav a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: var(--color-white);
+    display: block;
+    transition: 0.3s;
+    background-color: var(--color-blue);
+    border: 0.5ch solid var(--color-white);
+    border-right: none;
+    border-bottom: none;
+    border-top: none;
+    margin-top: 1ch;
+    margin-bottom: 1ch;
+    padding: 0.5ch;
+    padding-left: 2ch;
+    padding-right: 5ch;
+    filter: none;
+}
+
+.sideNav a:hover {
+    color: var(--color-white);
+    border-color: var(--color-red);
+    background-color: var(--color-blue-hover);
+    filter: none;
+}
+
+.sideNav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 1.5ch;
+    font-size: 3.5ch;
+    margin-left: 4ch;
+    filter: none;
 }
 
 .navbar {
@@ -37,6 +88,10 @@ body {
     background-color: var(--color-black);
     font-size: 1.4rem;
     border-bottom: 0.6rem solid var(--color-red);
+}
+
+span {
+    cursor: pointer;
 }
 
 .logo {
@@ -125,7 +180,7 @@ main {
     margin-bottom: 10ch;
 }
 
-.main-hero {
+.home-hero {
     display: flex;
     flex-wrap: wrap;
     align-content: center;

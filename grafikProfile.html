@@ -1,9 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="sv">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Grafik profile</title>
+    <link rel="icon" href="images/reboil.logo.svg">
+
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/styleGrafik.css">
@@ -15,223 +17,256 @@
 </head>
 <body>
 
-    <header>
-        <nav>
-            <div class="navbar">
-                <a href="index.html">
-                    <div class="brand">
-                        <img class="logo" src="images/reboil.logo.svg" alt="logo">
-                        <div class="brand-text">
-                            <p class="first-brand">Re</p>
-                            <p class="second-brand">Boil</p>
+    <div id="sidenav" class="sideNav">
+        <a style="margin: 0; background-color: inherit; border: none; padding-right: 0;" href="javascript:void(0)" class="closebtn"
+        onclick="closeNav()">&times;</a>
+
+        <a href="om.html">Om</a>
+        <a href="#">Medlem</a>
+        <a href="#">Butiker</a>
+        <a href="#">Erbjudanden</a>
+        <a href="grafikProfile.html">Grafisk profil</a>
+        <a href="#">Github</a>
+    </div>
+
+    <div id="bodyContent">
+        <header>
+            <nav>
+                <div class="navbar">
+                    <a href="index.html">
+                        <div class="brand">
+                            <img class="logo" src="images/reboil.logo.svg" alt="logo">
+                            <div class="brand-text">
+                                <p class="first-brand">Re</p>
+                                <p class="second-brand">Boil</p>
+                            </div>
                         </div>
+                    </a>
+                    <div class="nav">
+                        <ul class="nav-list">
+                            <li id="button" >
+                                <a href="#">Medlem</a>
+                            </li>
+                            </li>
+                            <li id="button">
+                                <a href="#">Butiker</a>
+                            </li>
+                            <li id="button">
+                                <a href="#">Erbjudanden</a>
+                            </li>
+                            <li  class = "call-for-action">
+                                <a href="#">Beställ</a>
+                            </li>
+                                <span  class="hamburger" onclick="openNav()">☰</span>
+                        </ul>
                     </div>
-                </a>
-                <div class="nav">
-                    <ul class="nav-list">
-                        <li id="button" >
-                            <a href="#">Medlem</a>
-                        </li>
-                        </li>
-                        <li id="button">
-                            <a href="#">Butiker</a>
-                        </li>
-                        <li id="button">
-                            <a href="#">Erbjudanden</a>
-                        </li>
-                        <li  class = "call-for-action">
-                            <a href="#">Beställ</a>
-                        <li class="hamburger">
-                            <a href="index.html">☰</a>
-                        </li>
+                </div>
+            </nav>
+        </header>
+        <div class="grafik-hero">
+            <div class="content">
+                <h1>Detta är en documentation på ett design system</h1>
+                <p>Här kommer jag att testa och vissa up min grafiska profil som jag har skapat under och innan företaget färdigställdes. </p>
+            </div>
+        </div>
+        <main>
+        
+            <div>
+                <h2>Font, heading och paragraph test</h2>
+                <br>
+                <br>
+                <div>
+                    <h1>Heading level 1</h1>
+                    <h2>Heading level 2</h2>
+                    <h3>Heading level 3</h3>
+                    <h4>Heading level 4</h4>
+                </div>
+        
+                <div>
+                    <br>
+                    <br>
+                    <h3>Brödtext</h3>
+                    <br>
+                    <div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum facere adipisci velit odio alias dicta, deserunt impedit, numquam, magnam expedita excepturi corporis aliquid atque nihil quam nam accusantium quibusdam fugit.</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima mollitia eius dignissimos nemo? At mollitia enim, doloribus minus earum iusto nisi deleniti asperiores eius praesentium nesciunt, ducimus nemo quis? Dolorum.</p>
+                        <br>
+                        <br>
+                        <br>
+                    </div>
+                </div>
+            </div>
+        
+            <div>
+                <h2>Links, buttons och lists</h2>
+                <br>
+                <br>
+                <ul>
+                    <li>Unordered</li>
+                    <br>
+                    <li>
+                        <a href="#">Link</a>
+                    </li>
+                    <li>
+                        <a href="#">Link</a>
+                    </li>
+                    <li>
+                        <a href="">Link</a>
+                    </li>
+                </ul>
+            
+                <ol>
+                    <li>Ordered</li>
+                    <li>
+                        <a href="#">Link</a>
+                    </li>
+                    <button>Button</button>
+                </ol>
+            </div>
+        
+            <div>
+                <br>
+                <br>
+                <hr>
+                <br>
+                <br>
+                <h3>Färger</h3>
+                <br>
+                <div class="boxes">
+                    <div class="primary">
+                        <p>Primary</p>
+                    </div>
+                    <div class="secondary">
+                        <p>Secondary</p>
+                    </div>
+                    <div class="tertiary">
+                        <p>tertiary</p>
+                    </div>
+                    <div class="light">
+                        <p>Light</p>
+                    </div>
+                    <div class="dark">
+                        <p>Dark</p>
+                    </div>
+                </div>
+                <br>
+                <br>
+                <h3>Text på färg</h3>
+                <br>
+                <div class="boxes">
+                    <div class="primary-dark">
+                        <p>Dark on primary</p>
+                    </div>
+                    <div class="secondary-dark">
+                        <p>Dark on secondary</p>
+                    </div>
+                    <div class="tertiary-dark">
+                        <p>Dark on tertiary</p>
+                    </div>
+                    <div class="primary-light">
+                        <p>Light on primary</p>
+                    </div>
+                    <div class="secondary-light">
+                        <p>Light on secondary</p>
+                    </div>
+                    <div class="tertiary-light">
+                        <p>Light on tertiary</p>
+                    </div>
+                </div>
+                <br>
+                <br>
+                <br>
+                <hr>
+                <br>
+            </div>
+        
+            <div>
+                <h2>Bilder</h2>
+                <br>
+                <br>
+                <div class="pictures">
+                    <img src="images/a-cup-of-coffee-on-a-saucer.jpg" alt="coffee-cup2">
+                    <img src="images/coffeemaker.png" alt="coffee-maker">
+                    <img src="images/co.b.jpg" alt="woman-holding-coffee">
+                    <img src="images/d8727543-074c-47a0-9894-34a872261842.jpg" alt="blue-cup">
+                </div>
+            </div>
+    
+            <div>
+                <hr>
+                <br>
+                <h2>Kort</h2>
+                <br>
+                <br>
+                <div class="cards">
+                    <div class="hero-content">
+                        <h1>Kort</h1>
+                        <p class="p1">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                    </div>
+                    <div class="hero-content second-content">
+                        <h1>Kort</h1>
+                        <p class="p1">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                        <p class="p2">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                    </div>
+                </div>
+            </div>
+        </main>
+         
+        <footer>
+            <div class = "top-footer">
+                <h3>Information & hjälp:</h3>
+                <p>Detta är bara ett skolarbete, hitte-på</p>
+            </div>
+            <div class = "bottom-footer">
+                <div class="box">
+                    <h3>Proudukt</h3>
+                    <ul>
+                        <li>Kaffekoppar</li>
+                        <li>Merch</li>
+                        <li>Erbjudanden</li>
+                    </ul>
+                </div>
+                <div class="box">
+                    <h3>ReBoil</h3>
+                    <ul>
+                        <li>Hållbarhet</li>
+                        <li>Tillverkning</li>
+                        <li>Samarbeten</li>
+                        <li>Jobba på Reboil</li>
+                    </ul>
+                </div>
+                <div class="box">
+                    <h3>Följ oss</h3>
+                    <ul>
+                        <li>Instagram</li>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>LinkedIn</li>
                     </ul>
                 </div>
             </div>
-        </nav>
-    </header>
-    <div class="grafik-hero">
-        <div class="content">
-            <h1>Detta är en documentation på ett design system</h1>
-            <p>Här kommer jag att testa och vissa up min grafiska profil som jag har skapat under och innan företaget färdigställdes. </p>
-        </div>
+        </footer>
     </div>
-    <main>
-    
-        <div>
-            <h2>Font, heading och paragraph test</h2>
-            <br>
-            <br>
-            <div>
-                <h1>Heading level 1</h1>
-                <h2>Heading level 2</h2>
-                <h3>Heading level 3</h3>
-                <h4>Heading level 4</h4>
-            </div>
-    
-            <div>
-                <br>
-                <br>
-                <h3>Brödtext</h3>
-                <br>
-                <div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum facere adipisci velit odio alias dicta, deserunt impedit, numquam, magnam expedita excepturi corporis aliquid atque nihil quam nam accusantium quibusdam fugit.</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima mollitia eius dignissimos nemo? At mollitia enim, doloribus minus earum iusto nisi deleniti asperiores eius praesentium nesciunt, ducimus nemo quis? Dolorum.</p>
-                    <br>
-                    <br>
-                    <br>
-                </div>
-            </div>
-        </div>
-    
-        <div>
-            <h2>Links, buttons och lists</h2>
-            <br>
-            <br>
-            <ul>
-                <li>Unordered</li>
-                <br>
-                <li>
-                    <a href="#">Link</a>
-                </li>
-                <li>
-                    <a href="#">Link</a>
-                </li>
-                <li>
-                    <a href="">Link</a>
-                </li>
-            </ul>
-        
-            <ol>
-                <li>Ordered</li>
-                <li>
-                    <a href="#">Link</a>
-                </li>
-                <button>Button</button>
-            </ol>
-        </div>
-    
-        <div>
-            <br>
-            <br>
-            <hr>
-            <br>
-            <br>
-            <h3>Färger</h3>
-            <br>
-            <div class="boxes">
-                <div class="primary">
-                    <p>Primary</p>
-                </div>
-                <div class="secondary">
-                    <p>Secondary</p>
-                </div>
-                <div class="tertiary">
-                    <p>tertiary</p>
-                </div>
-                <div class="light">
-                    <p>Light</p>
-                </div>
-                <div class="dark">
-                    <p>Dark</p>
-                </div>
-            </div>
-            <br>
-            <br>
-            <h3>Text på färg</h3>
-            <br>
-            <div class="boxes">
-                <div class="primary-dark">
-                    <p>Dark on primary</p>
-                </div>
-                <div class="secondary-dark">
-                    <p>Dark on secondary</p>
-                </div>
-                <div class="tertiary-dark">
-                    <p>Dark on tertiary</p>
-                </div>
-                <div class="primary-light">
-                    <p>Light on primary</p>
-                </div>
-                <div class="secondary-light">
-                    <p>Light on secondary</p>
-                </div>
-                <div class="tertiary-light">
-                    <p>Light on tertiary</p>
-                </div>
-            </div>
-            <br>
-            <br>
-            <br>
-            <hr>
-            <br>
-        </div>
-    
-        <div>
-            <h2>Bilder</h2>
-            <br>
-            <br>
-            <div class="pictures">
-                <img src="images/a-cup-of-coffee-on-a-saucer.jpg" alt="coffee-cup2">
-                <img src="images/coffeemaker.png" alt="coffee-maker">
-                <img src="images/co.b.jpg" alt="woman-holding-coffee">
-                <img src="images/d8727543-074c-47a0-9894-34a872261842.jpg" alt="blue-cup">
-            </div>
-        </div>
-
-        <div>
-            <hr>
-            <br>
-            <h2>Kort</h2>
-            <br>
-            <br>
-            <div class="cards">
-                <div class="hero-content">
-                    <h1>Kort</h1>
-                    <p class="p1">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
-                </div>
-                <div class="hero-content second-content">
-                    <h1>Kort</h1>
-                    <p class="p1">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
-                    <p class="p2">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
-                </div>
-            </div>
-        </div>
-    </main>
-     
-    <footer>
-        <div class = "top-footer">
-            <h3>Information & hjälp:</h3>
-            <p>Detta är bara ett skolarbete, hitte-på</p>
-        </div>
-        <div class = "bottom-footer">
-            <div class="box">
-                <h3>Proudukt</h3>
-                <ul>
-                    <li>Kaffekoppar</li>
-                    <li>Merch</li>
-                    <li>Erbjudanden</li>
-                </ul>
-            </div>
-            <div class="box">
-                <h3>ReBoil</h3>
-                <ul>
-                    <li>Hållbarhet</li>
-                    <li>Tillverkning</li>
-                    <li>Samarbeten</li>
-                    <li>Jobba på Reboil</li>
-                </ul>
-            </div>
-            <div class="box">
-                <h3>Följ oss</h3>
-                <ul>
-                    <li>Instagram</li>
-                    <li>Facebook</li>
-                    <li>Twitter</li>
-                    <li>LinkedIn</li>
-                </ul>
-            </div>
-        </div>
-    </footer>
 </body>
 </html>
+
+<script>
+    function openNav() {
+        document.getElementById("sidenav").style.width = "250px";
+        bodyContent.style.filter = "blur(2px)";
+        bodyContent.style.opacity = "80%";
+        document.body.style.position = "fixed";
+        document.body.style.backgroundColor = "black";
+        sideNav.style.filter = "blur(0px)";
+    }
+
+    function closeNav() {
+        document.getElementById("sidenav").style.width = "0";
+        bodyContent.style.filter = "blur(0)";
+        bodyContent.style.opacity = "100%";
+        document.body.style.position = "relative";
+        document.body.style.backgroundColor = "white";
+        sideNav.style.filter = "blur(0)";
+    }
+</script>
