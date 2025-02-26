@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Om - Reboil</title>
+    <link rel="icon" href="images/reboil.logo.svg">
+    
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/styleAbout.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@400;500;700;800&family=Darker+Grotesque:wght@300..900&family=Inknut+Antiqua:wght@400;500;600;700;800;900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div id="sidenav" class="sideNav">
+        <a style="margin: 0; background-color: inherit; border: none; padding-right: 0;" href="javascript:void(0)" class="closebtn"
+        onclick="closeNav()">&times;</a>
+
+        <a href="about.html">Om</a>
+        <a href="#">Medlem</a>
+        <a href="#">Butiker</a>
+        <a href="#">Erbjudanden</a>
+        <a href="grafikProfile.html">Grafisk profil</a>
+        <a href="#">Github</a>
+    </div>
+
+    <div id="bodyContent">
+
+        <header>
+            <nav>
+                <div class="navbar">
+                    <a href="index.html">
+                        <div class="brand">
+                            <img class="logo" src="images/reboil.logo.svg" alt="logo">
+                            <div class="brand-text">
+                                <p class="first-brand">Re</p>
+                                <p class="second-brand">Boil</p>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="nav">
+                        <ul class="nav-list">
+                            <li id="button" >
+                                <a href="#">Medlem</a>
+                            </li>
+                            </li>
+                            <li id="button">
+                                <a href="#">Butiker</a>
+                            </li>
+                            <li id="button">
+                                <a href="#">Erbjudanden</a>
+                            </li>
+                            <li  class = "call-for-action">
+                                <a href="#">Beställ</a>
+                            </li>
+                                <span  class="hamburger" onclick="openNav()">☰</span>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <div class="about-hero">
+            <div class="content">
+                <h1>Om oss</h1>
+                <p>Reboil är en fantastisk plats för <span>alla</span>, vi jobbar konstant med att förbättra både våra <span>kunders</span> och <span>anställdas</span> dagar</p>
+            </div>
+        </div>
+        <main>
+            <div class="first-box">
+                <img src="images/a-cup-of-coffee-on-a-saucer.jpg" alt="green-cup">
+                <div class="text">
+                    <h1>Ett revolutionerande sätt att värma ditt kaffe på utan mikro eller kaffekokare!</h3>
+                    <p>Genom att tillsätta vatten till ditt kaffe när det blir kallare behöver du aldrig oroa dig igen om kallt kaffe</p>
+                </div>
+            </div>
+            <div class="vision">
+                <h1><i>Vår vision:  “Att göra livet enklare för kaffeälskare”</i></h3>
+                <p>Vi strävar efter att underlätta och hjälpa de som behöver ha lite extra energi på jobbiga dagar på ett enkelt och bekvämt viss, utan att du behöver anstränga dig.</p>
+            </div>
+            <div>
+                <h2>Våra Anställda</h3>
+                <hr>
+                <div  class="cards">
+                    <div class="row_one">
+                        <div class="card">
+                            <div class="image">
+                                <img src="images/man-headshot-2.webp" alt="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROBXGkGY0OAPrsIO7DfJ2V6NmvfLCjQ-GbMQ&s">
+                            </div>
+                            <p class="name"><b>Michel Myren</b></p>
+                            <p class="roll">- Produktchef</p>
+                            <p>Hjälper oss skapa en långsiktig och effektiv produktionsplan</p>
+                        </div>
+                        <div class="card">
+                            <div class="image">
+                                <img src="images/person-headshot-2.jpg" alt="https://images.squarespace-cdn.com/content/v1/5dc5af1ad55ff401764113e5/1625854773378-QRZ61SEQ5XHWVGUWQWJQ/DSC_9429_HR.jpg">
+                            </div>
+                            <p class="name"><b>Sandy Sheeks</b></p>
+                            <p class="roll">- Marknadschef</p>
+                            <p>Bygger vårat företags varumärke och marknadsför oss</p>
+                        </div>
+                        <div class="card">
+                            <div class="image">
+                                <img src="images/smiling-corporate-lady-executive.jpg" alt="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwt_XyX2diEJX2bJWyrlTNoRmj9rad6Hz3jw&s">
+                            </div>
+                            <p class="name"><b>Greta Åberg</b></p>
+                            <p class="roll">- Grapic designer</p>
+                            <p>Jobbar med våran gradiska profil och designar vårat yttre</p>
+                        </div>
+                    </div>
+
+                    <div class="row_two">
+                        <div class="card">
+                            <div class="image">
+                                <img src="images/Emily-Murase-Headshot.jpeg" alt="https://www.google.com/url?sa=i&url=https%3A%2F%2Fjacl.org%2F2023-convention-workshops&psig=AOvVaw3XQvxloNkL2Y9PewbBGk3r&ust=1740662647990000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCKDbuOm34YsDFQAAAAAdAAAAABAE">
+                            </div>
+                            <p class="name"><b>Uma Thurman</b></p>
+                            <p class="roll">- UI/UX designer</p>
+                            <p>Förbättrar din upplevelse och interaktion på websidan</p>
+                        </div>
+                        <div class="card">
+                            <div class="image">
+                                <img src="images/headshot-man.jpg" alt="https://www.google.com/url?sa=i&url=https%3A%2F%2Fparakeeto.com%2Fblog%2Fresource-utilization-capacity-planning-for-marketing-agency-2%2F&psig=AOvVaw2TzJ4npzaL3rqphkR5uXH3&ust=1740662204462000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCLDg3p-34YsDFQAAAAAdAAAAABAE">
+                            </div>
+                            <p class="name"><b>Freddy Kringler</b></p>
+                            <p class="roll">- Produktionsingenjör</p>
+                            <p>Övervakar produktions processen och säkerhetsställer den</p>
+                        </div>
+                        <div class="card">
+                            <div class="image">
+                                <img src="images/Dr.-Huntsman-Headshot-Web.jpg" alt="https://www.google.com/url?sa=i&url=https%3A%2F%2Forthodana.com%2Four-practice%2Fdr-steve-huntsman%2F&psig=AOvVaw0qYZj8twMeKP0QhAs4CNCy&ust=1740662590131000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCPCEotK34YsDFQAAAAAdAAAAABAE">
+                            </div>
+                            <p class="name"><b>Han Lecter</b></p>
+                            <p class="roll">- Kundtjänst</p>
+                            <p>Besvarar dina frågor som kund och tar emot beställningar</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <h2>Hitta oss enkelt</h3>
+                <hr>
+                <div>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14765.243780575496!2d17.28686500318006!3d62.44555011530874!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46645e28996a531d%3A0xba7418f2cd4f80a5!2s863%2041%20Birsta!5e0!3m2!1ssv!2sse!4v1740579004395!5m2!1ssv!2sse" width="600" height="450" style="border:0; border-radius: 1ch; margin-bottom: 15ch; margin-top: 2ch;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                </div>
+            </div>
+            <div class="text">
+                <h2>Mer om oss</h3>
+                <hr>
+                <p>Reboil har sitt ursprung i den nordliga staden Sundsvall. Det var efter att några universitet studenter gjorde en undersökning på hur mycket kaffe som slängs för att det blivit kallt, och de problem som kaffe-älskare har med att hålla deras kaffe varmt som idén bildades. Den lilla tanken byggdes vidare på och gav liv till det vi nu idag kallar reboil koppen, en automatisk värmande kopp som är både säker och hållbar.</p>
+                <p>Nu idag är reboil ett stort företag som inriktar sig på kaffe-älskare som har ett händelse rikt liv och behöver den extra energin som de får av kaffet.</p>
+            </div>
+        </main>
+
+        <footer>
+            <div class = "top-footer">
+                <h3>Information & hjälp:</h3>
+                <p>Detta är bara ett skolarbete, hitte-på</p>
+            </div>
+            <div class = "bottom-footer">
+                <div class="box">
+                    <h3>Proudukt</h3>
+                    <ul>
+                        <li>Kaffekoppar</li>
+                        <li>Merch</li>
+                        <li>Erbjudanden</li>
+                    </ul>
+                </div>
+                <div class="box">
+                    <h3>ReBoil</h3>
+                    <ul>
+                        <li>Hållbarhet</li>
+                        <li>Tillverkning</li>
+                        <li>Samarbeten</li>
+                        <li>Jobba på Reboil</li>
+                    </ul>
+                </div>
+                <div class="box">
+                    <h3>Följ oss</h3>
+                    <ul>
+                        <li>Instagram</li>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>LinkedIn</li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </div>
+    
+</body>
+</html>
+
+<script>
+    function openNav() {
+        document.getElementById("sidenav").style.width = "250px";
+        bodyContent.style.filter = "blur(2px)";
+        bodyContent.style.opacity = "80%";
+        document.body.style.backgroundColor = "gray";
+        sideNav.style.filter = "blur(0px)";
+    }
+
+    function closeNav() {
+        document.getElementById("sidenav").style.width = "0";
+        bodyContent.style.filter = "blur(0)";
+        bodyContent.style.opacity = "100%";
+        document.body.style.backgroundColor = "white";
+        sideNav.style.filter = "blur(0)";
+    }
+</script>

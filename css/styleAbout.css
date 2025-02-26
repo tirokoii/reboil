@@ -1,0 +1,144 @@
+.about-hero {
+    display: flex;
+    background-color: rgb(74, 74, 74);
+    background-image: url('/images/hero-about-image.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    width: 20ch;
+    height: 30ch;
+    margin-bottom: 20ch;
+    margin-top: 10ch;
+    margin-inline: 10ch;
+}
+
+.content h1 {
+    display: flex;
+    font-size: 4rem;
+    color: var(--color-white); 
+}
+
+.content p {
+    width: 30ch;
+    padding-top: 1ch;
+    padding-left: 1ch;
+    color: var(--color-white);
+}
+
+span {
+    color: var(--color-green);
+}
+
+.first-box {
+    display: flex;
+}
+
+.first-box .text {
+    padding-left: 5ch;
+}
+.first-box p {
+    padding-top: 2ch;
+}
+
+.first-box img {
+    width: 30ch;
+    height: 30ch;
+    border-radius: 1.5ch;
+}
+
+.vision {
+    text-align: center;
+    margin-top: 15ch;
+    margin-bottom: 30ch;
+    justify-items: center;
+}
+
+.vision p {
+    width: 70%;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 10ch;
+    margin-bottom: 15ch;
+}
+
+.row_one {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.row_two {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: var(--color-white);
+    width: 25ch;
+    height: 50ch;
+    margin-inline: 1ch;
+    margin-bottom: 6ch;
+    border-radius: 2ch;
+    border-bottom: 1ch solid var(--color-green);
+}
+
+.roll {
+    font-weight: 600 !important;
+    padding-bottom: 1ch;
+}
+
+.card p {
+    margin-inline: 2.5ch;
+    font-family: var(--font-subheading);
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.name {
+    font-family: var(--font-headlines);
+    font-weight: bolder;
+    font-size: 3rem;
+    padding-bottom: 0.5ch;
+}
+
+.image {
+    align-self: center;
+    margin-top: 2ch;
+    width: 20ch;
+    height: 20ch;
+    overflow: hidden;
+    border-radius: 1ch;
+    margin-bottom: 2ch;
+}
+
+h2 {
+    font-size: 2.5rem;
+}
+
+.text {
+    margin-bottom: 15ch;
+}
+
+.text p {
+    margin-top: 2ch;
+}
+
+@media only screen and (max-width: 762px) {
+    .first-box {
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
