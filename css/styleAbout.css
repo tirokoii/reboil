@@ -1,7 +1,7 @@
 .about-hero {
     display: flex;
     background-color: rgb(74, 74, 74);
-    background-image: url('../images/hero-about-image.jpg');
+    background-image: url('../images/hero-about-image.png');
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
