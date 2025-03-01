@@ -135,10 +135,23 @@ h2 {
     margin-top: 2ch;
 }
 
+.map {
+    display: flex;
+}
+
 @media only screen and (max-width: 762px) {
+    .content {
+        margin-left: 2ch !important;
+    }
+
     .first-box {
         align-items: center;
         flex-direction: column;
         justify-content: center;
+    }
+
+    .text {
+        margin-top: 5ch;
+        padding-left: 1ch !important;
     }
 }
