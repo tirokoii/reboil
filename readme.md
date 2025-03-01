@@ -29,7 +29,8 @@ De possible heading är namnen på korten vilket jag inte planerar att ändra ti
 Device dependent event fungerar på min mobil. (Jag ser inte problemet)
 
 ## Validator
-10 Errors - (Id button)
-1 Fatal Error
-2 Warnings
+10 Errors - (Id button, fel end tag)
+1 Fatal Error -Script
+2 Warnings - (Id button)
+
 
