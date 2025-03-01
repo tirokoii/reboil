@@ -5,7 +5,7 @@
 2. Revolutinerande texten vart för nära bilden
 3. Hero texten hade för mycket margin åt vänster / den hamnade för långt åt höger
 
-## Fix
+### Fix
 
 1. Skapa en klass (map) som hade display flex
 2. Lägga till (.text) margin-top =  5ch till media taggen i about documentet
