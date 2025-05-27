@@ -1,169 +1,168 @@
 <!DOCTYPE html>
 <html lang="sv">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hem - ReBoil co</title>
-    <link rel="icon" href="images/reboil.logo.svg">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Hem - ReBoil co</title>
+        <link rel="icon" href="images/reboil.logo.svg">
 
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/reset.css">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@400;500;700;800&family=Darker+Grotesque:wght@300..900&family=Inknut+Antiqua:wght@400;500;600;700;800;900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@400;500;700;800&family=Darker+Grotesque:wght@300..900&family=Inknut+Antiqua:wght@400;500;600;700;800;900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
 
-</head>
+    </head>
 
-<body>
-    <div id="sidenav" class="sideNav">
-        <a style="margin: 0; background-color: inherit; border: none; padding-right: 0;" href="javascript:void(0)" class="closebtn"
-        onclick="closeNav()">&times;</a>
+    <body>
+        <div id="sidenav" class="sideNav">
+            <a style="margin: 0; background-color: inherit; border: none; padding-right: 0;" href="javascript:void(0)" class="closebtn"
+            onclick="closeNav()">&times;</a>
 
-        <a href="about.html">Om</a>
-        <a href="#">Medlem</a>
-        <a href="#">Butiker</a>
-        <a href="#">Erbjudanden</a>
-        <a href="grafikProfile.html">Grafisk profil</a>
-        <a href="#">Github</a>
-    </div>
+            <a href="about.html">Om</a>
+            <a href="#">Medlem</a>
+            <a href="#">Butiker</a>
+            <a href="#">Erbjudanden</a>
+            <a href="grafikProfile.html">Grafisk profil</a>
+            <a href="#">Github</a>
+        </div>
 
-    <div id="bodyContent">
-        <header>
-            <nav>
-                <div class="navbar">
-                    <a href="index.html">
-                        <div class="brand">
-                            <img class="logo" src="images/reboil.logo.svg" alt="logo">
-                            <div class="brand-text">
-                                <p class="first-brand">Re</p>
-                                <p class="second-brand">Boil</p>
+        <div id="bodyContent">
+            <header>
+                <nav>
+                    <div class="navbar">
+                        <a href="index.html">
+                            <div class="brand">
+                                <img class="logo" src="images/reboil.logo.svg" alt="logo">
+                                <div class="brand-text">
+                                    <p class="first-brand">Re</p>
+                                    <p class="second-brand">Boil</p>
+                                </div>
+                            </div>
+                        </a>
+                        <div class="nav">
+                            <ul class="nav-list">
+                                <li id="btn" >
+                                    <a href="#">Medlem</a>
+                                </li>
+                                <li id="btn">
+                                    <a href="#">Butiker</a>
+                                </li>
+                                <li id="btn">
+                                    <a href="#">Erbjudanden</a>
+                                </li>
+                                <li  class = "call-for-action">
+                                    <a href="#">Beställ</a>
+                                </li>
+                                    <span  class="hamburger" onclick="openNav()">☰</span>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </header>
+        
+            <div class="home-hero">
+                <div class="hero">
+                    <img class="hero-image" src="images/hero.cup.png" alt="hero image">
+                    <div class="hero-container">
+                        <div class="hero-content">
+                            <h1>“Ett Re-volutionerande Sätt Att Värma Ditt Kaffe På Utan Mikro Eller kaffekokare”</h1>
+                            <div>
+                                <p class="p1">Med våran kopp kan du enkelt och säkert värma upp ditt kaffe utan mikro eller kaffekokare</p> 
+                                <p class="p2">Du kommer aldrig mer behöva ha uppsikt över ditt kaffe</p> 
                             </div>
                         </div>
-                    </a>
-                    <div class="nav">
-                        <ul class="nav-list">
-                            <li id="button" >
-                                <a href="#">Medlem</a>
-                            </li>
-                            </li>
-                            <li id="button">
-                                <a href="#">Butiker</a>
-                            </li>
-                            <li id="button">
-                                <a href="#">Erbjudanden</a>
-                            </li>
-                            <li  class = "call-for-action">
-                                <a href="#">Beställ</a>
-                            </li>
-                                <span  class="hamburger" onclick="openNav()">☰</span>
+            
+                        <div  class="hero-content second-content">
+                            <h1>Vi Älskar Våra Kunder Därför Får De Första Kunderna Ett Speciall Erbjudande</h1>
+                            <div>
+                                <p class = "p1">Få 20% Rabatt på första köpet + en gratis keps</p>
+                                <p class = "p2">Företag som köper får alltid 10% rabbat på alla större köp</p>
+                                <p class = "p2">Köp online och få frifrakt vart du ens bor</p>
+                            </div>
+                        </div>
+                        <div class="slogan">
+                            <p>Vi här på ReBoil strävar efter att underlätt och hjälpa våra kunders i deras vardag. Med våran Kaffekopp kommer ni kunna njuta av erat kaffe hela dagen av stress</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <main>
+                <article>
+                    <div class="card-row">
+                        <div class="card-text card-one-text">
+                            <h2>Vi nyttjar endast miljövänliga och etiska råvaror</h2>
+                            <p>ReBoil fokuserar på att använda råvaror som utvinns på ett hållbart och etiskt sätt. Vi säkerställer att materialen kommer från källor som respekterar både miljö och mänskliga rättigheter...</p>
+                            <button>LÄS MER</button>
+                        </div>
+                        <img class="card-image" src="images/coffeemaker.png" alt="material image">
+                    </div>
+                    <div class="card-row">
+                        <img class="card-image" src="images/woman.coffee.png" alt="kvinna håller i kaffe">
+                        <div class="card-text card-two-text">
+                            <h2>Visste du att de som dricker mest kaffe är kontors chefer?</h2>
+                            <p>I den nya SIFO-underfökningen från Beans in cup framgår det att kontors chefer är de som dricker mest kaffe. De dricker nämligen sammanlagt 12 miljoner koppar varje dag!</p>
+                            <button>LÄS MER</button>
+                        </div>
+                    </div>
+                </article>
+        
+            </main>
+        
+            <footer>
+                <div class = "top-footer">
+                    <h3>Information & hjälp:</h3>
+                    <p>Detta är bara ett skolarbete, hitte-på</p>
+                </div>
+                <div class = "bottom-footer">
+                    <div class="box">
+                        <h3>Proudukt</h3>
+                        <ul>
+                            <li>Kaffekoppar</li>
+                            <li>Merch</li>
+                            <li>Erbjudanden</li>
+                        </ul>
+                    </div>
+                    <div class="box">
+                        <h3>ReBoil</h3>
+                        <ul>
+                            <li>Hållbarhet</li>
+                            <li>Tillverkning</li>
+                            <li>Samarbeten</li>
+                            <li>Jobba på Reboil</li>
+                        </ul>
+                    </div>
+                    <div class="box">
+                        <h3>Följ oss</h3>
+                        <ul>
+                            <li>Instagram</li>
+                            <li>Facebook</li>
+                            <li>Twitter</li>
+                            <li>LinkedIn</li>
                         </ul>
                     </div>
                 </div>
-            </nav>
-        </header>
-    
-        <div class="home-hero">
-            <div class="hero">
-                <img class="hero-image" src="images/hero.cup.png" alt="hero image">
-                <div class="hero-container">
-                    <div class="hero-content">
-                        <h1>“Ett Re-volutionerande Sätt Att Värma Ditt Kaffe På Utan Mikro Eller kaffekokare”</h1>
-                        <div>
-                            <p class="p1">Med våran kopp kan du enkelt och säkert värma upp ditt kaffe utan mikro eller kaffekokare</p> 
-                            <p class="p2">Du kommer aldrig mer behöva ha uppsikt över ditt kaffe</p> 
-                        </div>
-                    </div>
-        
-                    <div  class="hero-content second-content">
-                        <h1>Vi Älskar Våra Kunder Därför Får De Första Kunderna Ett Speciall Erbjudande</h1>
-                        <div>
-                            <p class = "p1">Få 20% Rabatt på första köpet + en gratis keps</p>
-                            <p class = "p2">Företag som köper får alltid 10% rabbat på alla större köp</p>
-                            <p class = "p2">Köp online och få frifrakt vart du ens bor</p>
-                        </div>
-                    </div>
-                    <div class="slogan">
-                        <p>Vi här på ReBoil strävar efter att underlätt och hjälpa våra kunders i deras vardag. Med våran Kaffekopp kommer ni kunna njuta av erat kaffe hela dagen av stress</p>
-                    </div>
-                </div>
-            </div>
+            </footer>
         </div>
-    
-        <main>
-            <article>
-                <div class="card-row">
-                    <div class="card-text card-one-text">
-                        <h2>Vi nyttjar endast miljövänliga och etiska råvaror</h2>
-                        <p>ReBoil fokuserar på att använda råvaror som utvinns på ett hållbart och etiskt sätt. Vi säkerställer att materialen kommer från källor som respekterar både miljö och mänskliga rättigheter...</p>
-                        <button>LÄS MER</button>
-                    </div>
-                    <img class="card-image" src="images/coffeemaker.png" alt="material image">
-                </div>
-                <div class="card-row">
-                    <img class="card-image" src="images/woman.coffee.png" alt="kvinna håller i kaffe">
-                    <div class="card-text card-two-text">
-                        <h2>Visste du att de som dricker mest kaffe är kontors chefer?</h2>
-                        <p>I den nya SIFO-underfökningen från Beans in cup framgår det att kontors chefer är de som dricker mest kaffe. De dricker nämligen sammanlagt 12 miljoner koppar varje dag!</p>
-                        <button>LÄS MER</button>
-                    </div>
-                </div>
-            </article>
-    
-        </main>
-    
-        <footer>
-            <div class = "top-footer">
-                <h3>Information & hjälp:</h3>
-                <p>Detta är bara ett skolarbete, hitte-på</p>
-            </div>
-            <div class = "bottom-footer">
-                <div class="box">
-                    <h3>Proudukt</h3>
-                    <ul>
-                        <li>Kaffekoppar</li>
-                        <li>Merch</li>
-                        <li>Erbjudanden</li>
-                    </ul>
-                </div>
-                <div class="box">
-                    <h3>ReBoil</h3>
-                    <ul>
-                        <li>Hållbarhet</li>
-                        <li>Tillverkning</li>
-                        <li>Samarbeten</li>
-                        <li>Jobba på Reboil</li>
-                    </ul>
-                </div>
-                <div class="box">
-                    <h3>Följ oss</h3>
-                    <ul>
-                        <li>Instagram</li>
-                        <li>Facebook</li>
-                        <li>Twitter</li>
-                        <li>LinkedIn</li>
-                    </ul>
-                </div>
-            </div>
-        </footer>
-    </div>
-</body>
 
-<script>
-    function openNav() {
-        document.getElementById("sidenav").style.width = "250px";
-        bodyContent.style.filter = "blur(2px)";
-        bodyContent.style.opacity = "80%";
-        document.body.style.backgroundColor = "gray";
-        sideNav.style.filter = "blur(0px)";
-    }
-
-    function closeNav() {
-        document.getElementById("sidenav").style.width = "0";
-        bodyContent.style.filter = "blur(0)";
-        bodyContent.style.opacity = "100%";
-        document.body.style.backgroundColor = "white";
-        sideNav.style.filter = "blur(0)";
-    }
-</script>
+        <script>
+            function openNav() {
+                document.getElementById("sidenav").style.width = "250px";
+                bodyContent.style.filter = "blur(2px)";
+                bodyContent.style.opacity = "80%";
+                document.body.style.backgroundColor = "gray";
+                sideNav.style.filter = "blur(0px)";
+            }
+        
+            function closeNav() {
+                document.getElementById("sidenav").style.width = "0";
+                bodyContent.style.filter = "blur(0)";
+                bodyContent.style.opacity = "100%";
+                document.body.style.backgroundColor = "white";
+                sideNav.style.filter = "blur(0)";
+            }
+        </script>
+    </body>
 </html>
