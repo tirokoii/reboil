@@ -55,5 +55,8 @@ Felet med att span inte fick vara en child av ul sökte jag upp, man fick ha spa
 
 
 
+### Fix 2
+Efter att ha validerat sidan igen så fixade jag script felet, vilket bara var att flytta up hela taggen från html till body. Jag ändrade även namnet button id'et till btn för att särskilja den från button taggen. 
 
+Error och warning kring btn kvar står dock, den säger att jag har duplicate ID och noterar första occurences av btn ID'et. Men det är mycket lättare att ha ID'et på flera ställen än skriva flera separata ID'n, det gör det lättare att applicera java script på alla.
 
