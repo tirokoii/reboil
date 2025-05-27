@@ -60,3 +60,29 @@ Efter att ha validerat sidan igen så fixade jag script felet, vilket bara var a
 
 Error och warning kring btn kvar står dock, den säger att jag har duplicate ID och noterar första occurences av btn ID'et. Men det är mycket lättare att ha ID'et på flera ställen än skriva flera separata ID'n, det gör det lättare att applicera java script på alla.
 
+## Bilder
+
+### Size check
+
+#### Start sidan
+
+Hero bild för stor (3318x1604) --> (1920x928)
+Card bilder för stora (974x974) --> (400x400)
+
+#### Om
+
+Hero bild ser bra ut (1920x1080)
+Grön kopp (520x520) --> (400x400)
+
+Gubbe i skägg (1674x2510) --> (500x750)
+Glassögon kvinna (2049x2270) --> (500x554)
+Glad man i skjorta (225x225) --> (500x500)
+Man i rött (500x750)
+Buissnes man (1951x2393) --> (500x613)
+Kvinna i kostym (2400x3000) --> (500x625)
+Kvinna med flätta (328x344) --> (500x524)
+
+#### Grafisk profil
+
+Hero bild (832x448)...
+Jag tröttande på att kolla bilder
